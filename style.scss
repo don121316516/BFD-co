@@ -1,4 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #product{
     padding: 20px 15px;
 }
 
+.carousel-item img{
+    object-fit: cover;
+    height: 500px;
+}
