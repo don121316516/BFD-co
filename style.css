@@ -16,5 +16,12 @@
 #infomation {
   text-align: center;
   padding: 30px;
+  margin: 20px;
+}
+
+.navbar-text {
+  padding-top: 10px;
+  font-size: 13px;
+  color: lightslategray;
 }
 /*# sourceMappingURL=style.css.map */
