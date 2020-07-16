@@ -20,6 +20,8 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- AOS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -41,8 +43,7 @@
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="./about.html">關於保富得<span
-                                class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="./about.html">關於保富得<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">最新消息</a>
@@ -130,7 +131,7 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-        <section id="infomation">
+        <section data-aos="zoom-in" id="infomation">
             <h5>保富得企業股份有限公司 <p>
                 <p> 《各類紙材的專家》
                 <p>二十年以上銷售經 品質有目共睹 ！
@@ -161,13 +162,13 @@
                     </div> -->
             <!-- </div> -->
             <!-- 卡片二號範例 -->
-            <div class="card-deck">
+            <div class="card-deck" data-aos="zoom-in">
                 <div class="card">
                     <img src="./img/DSC09720.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">各類紙張買賣</h5>
+                        <h5 class="card-title">各類紙張</h5>
                         <p class="card-text">書籍用紙 / 美術紙 / 星幻紙 / 炫光紙 / 象牙卡 / 雲彩紙 / 映劃紙 / 黑卡 / 色紙 / 日本銅西卡 / 其他...</p>
-                        <a href="https://don121316516.github.io/BFD-co-product/" class="btn btn-link btn-sm">看更多詳細紙樣</a>
+                        <a href="./product.html" class="btn btn-link btn-sm">看更多詳細紙樣</a>
                     </div>
                 </div>
                 <div class="card">
@@ -175,7 +176,7 @@
                     <div class="card-body">
                         <h5 class="card-title">特級黑卡</h5>
                         <p class="card-text">各種厚度的黑卡紙 特殊名片的最佳選擇</p>
-                        <a href="https://don121316516.github.io/BFD-co-product/" class="btn btn-link btn-sm">看更多詳細紙樣</a>
+                        <a href="./product.html" class="btn btn-link btn-sm">看更多詳細紙樣</a>
                     </div>
                 </div>
                 <div class="card">
@@ -183,7 +184,7 @@
                     <div class="card-body">
                         <h5 class="card-title">祝賀紅包袋</h5>
                         <p class="card-text">客製燙金紅包袋 各式圖案/壓凸皆可開模製作</p>
-                        <a href="https://don121316516.github.io/BFD-co-product/" class="btn btn-link btn-sm">看更多詳細紅包袋</a>
+                        <a href="./product3.html" class="btn btn-link btn-sm">看更多詳細紅包袋</a>
                     </div>
                 </div>
             </div>
@@ -200,6 +201,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     </div>
 </body>
 
