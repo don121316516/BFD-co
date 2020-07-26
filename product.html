@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>保富得 各式紙材的專家</title>
+    <link rel="stylesheet" href="./style.css">
+
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- AOS -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- CSS -->
-    <link rel="stylesheet" href="./style.css">
+     <!-- AOS CDN -->
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -62,7 +62,7 @@
         <div class="container pt-4">
             <h4 m->產品類別</h4>
             <!-- boostrap的卡片欄位 -->
-            <div class="card-deck">
+            <div class="card-deck" >
                 <div class="card">
                     <a href="#"><img src="./img/DSC09720.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <!-- 第二排卡片 -->
-            <div class="card-deck">
+            <div class="card-deck" >
                 <div class="card">
                     <a href="#"><img src="./img/DSC09720.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
@@ -116,7 +116,7 @@
                 </div>
             </div>
             <!-- 第三排卡片 -->
-            <div class="card-deck">
+            <div class="card-deck" >
                 <div class="card">
                     <a href="#"><img src="./img/DSC09720.jpg" class="card-img-top" alt="..."></a>
                     <div class="card-body">
@@ -144,7 +144,16 @@
             </div>
 
         </div>
+            <!-- 測邊浮動列表 -->
 
+    <div id="right-ul">
+        <a href="./index.html"  class="list-group-item list-group-item-action"><img src="./img/LOGO-01.png" alt="BFD" srcset=""></a>
+        <a href="./about.html" class="list-group-item list-group-item-action">各式紙材類</a>
+        <a href="./product.html" class="list-group-item list-group-item-action">獎狀 / 證書</a>
+        <a href="./produvt2.html" class="list-group-item list-group-item-action">信封 / 紅包袋</a>
+        <a href="./produvt2.html" class="list-group-item list-group-item-action">賀卡 / 名片</a>
+        <a href="./produvt2.html" class="list-group-item list-group-item-action">其他紙類加工品</a>
+     </div>
 
 
         <!-- Bootstrap -->
@@ -157,6 +166,9 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
             integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
             crossorigin="anonymous"></script>
+            <script>
+                AOS.init();
+            </script>
     </div>
 </body>
 
